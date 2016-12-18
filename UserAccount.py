@@ -27,6 +27,6 @@ class UserAccount :
         #If, and only if, there's a match, then print the user's secret to the screen.
         
         
-        if password_guess == self.password:
+        if password == self.password:
             print('secret', password)
     
